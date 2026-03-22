@@ -6,15 +6,17 @@ Create a portfolio for Matthew "Marty" Mitchener that contains information about
 
 ## Style
 
-- Style should be minimal with some flashiness to impress
+- Website should be extremely minimalist
 - Include some parallax effects
-- Font should be a clean monospaced font.
+- Font should be a clean monospaced font
+- Website should not look like it is in darkmode. Should have a zenlike quality.
 - Maybe a slight Cyberpunk vibe but keep it professional
+- Keep job/project description short (2-3 sentences)
 
 ## Content
 
-- Show case all of Marty's projects
-  - Fetch stars and useful stats from Github
+- Showcase Marty's projects
+  - Fetch stars, downloads and other useful stats from Github, VS Code plugins, and Packagist
 - Brief description about Marty's software career
 - Provide contact information if you want to get in touch with him
 
