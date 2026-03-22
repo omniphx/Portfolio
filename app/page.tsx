@@ -190,7 +190,7 @@ export default async function Page() {
         {/* ── About ─────────────────────────────────────── */}
         <section id="about" style={{ marginBottom: '100px' }}>
           <p className="section-label">about</p>
-          <p style={{ maxWidth: '620px', lineHeight: 1.8, color: 'var(--fg)', fontSize: '15px' }}>
+          <p style={{ maxWidth: '620px', lineHeight: 1.8, color: 'var(--fg)', fontSize: '17px' }}>
             Engineer and manager with over a decade building web and mobile products.
             I&apos;ve shipped consumer health apps, design systems used by 400+ teams, AI-powered tooling,
             and low-code data platforms. Currently leading engineering at Abbott,
@@ -248,12 +248,12 @@ export default async function Page() {
               <div key={job.role}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', flexWrap: 'wrap', gap: '8px', marginBottom: '8px' }}>
                   <div>
-                    <span style={{ fontWeight: 700, fontSize: '15px' }}>{job.company}</span>
-                    <span style={{ color: 'var(--muted)', marginLeft: '12px', fontSize: '13px' }}>{job.role}</span>
+                    <span style={{ fontWeight: 700, fontSize: '17px' }}>{job.company}</span>
+                    <span style={{ color: 'var(--muted)', marginLeft: '12px', fontSize: '15px' }}>{job.role}</span>
                   </div>
-                  <span style={{ color: 'var(--muted)', fontSize: '12px', whiteSpace: 'nowrap' }}>{job.period}</span>
+                  <span style={{ color: 'var(--muted)', fontSize: '13px', whiteSpace: 'nowrap' }}>{job.period}</span>
                 </div>
-                <p style={{ color: 'var(--fg)', fontSize: '13px', lineHeight: 1.8, maxWidth: '640px', marginBottom: job.links.length ? '12px' : '0' }}>
+                <p style={{ color: 'var(--fg)', fontSize: '15px', lineHeight: 1.8, maxWidth: '640px', marginBottom: job.links.length ? '12px' : '0' }}>
                   {job.description}
                 </p>
                 {job.links.length > 0 && (
@@ -264,7 +264,7 @@ export default async function Page() {
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ fontSize: '12px', color: 'var(--accent)', letterSpacing: '0.05em' }}
+                        style={{ fontSize: '13px', color: 'var(--accent)', letterSpacing: '0.05em' }}
                       >
                         {link.label} ↗
                       </a>
@@ -302,7 +302,7 @@ export default async function Page() {
                       href={p.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      style={{ fontWeight: 700, fontSize: '14px', letterSpacing: '0.03em' }}
+                      style={{ fontWeight: 700, fontSize: '16px', letterSpacing: '0.03em' }}
                     >
                       [{p.name}]
                     </a>
@@ -311,24 +311,24 @@ export default async function Page() {
                         href={p.githubUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ fontSize: '11px', color: 'var(--muted)', marginLeft: '12px' }}
+                        style={{ fontSize: '13px', color: 'var(--muted)', marginLeft: '12px' }}
                       >
                         github ↗
                       </a>
                     )}
                   </div>
-                  <p style={{ fontSize: '12px', color: 'var(--muted)', lineHeight: 1.7, maxWidth: '540px' }}>
+                  <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.7, maxWidth: '540px' }}>
                     {p.description}
                   </p>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: '6px', paddingTop: '2px' }}>
                   {p.stars !== null && (
-                    <span style={{ fontSize: '12px', color: 'var(--muted)', whiteSpace: 'nowrap' }}>
-                      ★ {fmt(p.stars)}
+                    <span style={{ fontSize: '13px', color: 'var(--muted)', whiteSpace: 'nowrap' }}>
+                      <span style={{ fontSize: '16px' }}>★</span> {fmt(p.stars)}
                     </span>
                   )}
                   {p.downloads !== null && p.downloads !== undefined && (
-                    <span style={{ fontSize: '11px', color: 'var(--muted)', whiteSpace: 'nowrap' }}>
+                    <span style={{ fontSize: '12px', color: 'var(--muted)', whiteSpace: 'nowrap' }}>
                       ↓ {fmt(p.downloads)} {p.downloadLabel}
                     </span>
                   )}
@@ -349,12 +349,12 @@ export default async function Page() {
                 href="https://shelf-app.net/"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{ fontWeight: 700, fontSize: '14px' }}
+                style={{ fontWeight: 700, fontSize: '16px' }}
               >
                 [shelf]
               </a>
             </div>
-            <p style={{ fontSize: '12px', color: 'var(--muted)', lineHeight: 1.7, maxWidth: '540px' }}>
+            <p style={{ fontSize: '14px', color: 'var(--muted)', lineHeight: 1.7, maxWidth: '540px' }}>
               App to share reviews of movies, books, TV shows, and games with friends and family.
               Contributed the &ldquo;Weekly Read&rdquo; — a collaborative short story feature with a Kindle-like reading UX
               that lets users discuss and annotate together.
@@ -363,7 +363,7 @@ export default async function Page() {
               href="https://shelf-app.net/"
               target="_blank"
               rel="noopener noreferrer"
-              style={{ fontSize: '12px', color: 'var(--accent)', display: 'inline-block', marginTop: '8px' }}
+              style={{ fontSize: '13px', color: 'var(--accent)', display: 'inline-block', marginTop: '8px' }}
             >
               shelf-app.net ↗
             </a>
@@ -397,7 +397,7 @@ export default async function Page() {
         {/* ── Footer ────────────────────────────────────── */}
         <footer style={{ marginTop: '80px', paddingTop: '32px', borderTop: '1px solid var(--border)' }}>
           <p style={{ fontSize: '11px', color: 'var(--muted)', letterSpacing: '0.05em' }}>
-            matthew mitchener · {new Date().getFullYear()}
+            <span style={{ fontSize: '12px' }}>matthew mitchener · {new Date().getFullYear()}</span>
           </p>
         </footer>
 

@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f2f1ec;
+  --bg: #ffffff;
   --fg: #0a0a0a;
   --accent: #003fff;
-  --muted: #777;
+  --muted: #555;
   --border: rgba(10, 10, 10, 0.1);
 }
 
@@ -28,7 +28,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--font-geist-mono), 'Courier New', monospace;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
@@ -60,7 +60,7 @@ a:hover {
 }
 
 .section-label {
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.15em;
   color: var(--muted);
   text-transform: uppercase;
@@ -79,7 +79,7 @@ hr.divider {
 }
 
 .contact-link {
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 0.08em;
   border-bottom: 1px solid var(--fg);
   padding-bottom: 2px;
