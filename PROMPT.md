@@ -138,6 +138,13 @@ While at Fineline Prototyping I coordinated custom manufacturing projects betwee
   - https://github.com/omniphx/starwars
 - [Discord Vaccine Bot](https://github.com/omniphx/discord-ma-vaccine-bot) - My wife is a teacher and during COVID it was difficult for frontline workers to find appoints for the newly released COVID vaccine. This project helped hundreds of teachers in the Boston area find available appoints for the life saving vaccine. Not expecting it to be widely used, I suddenly found myself become the de facto discord tech support for teachers where were not used to the gaming platform. It was hilarious and endearning to have such a profound impact on others.
 - [adminite](https://github.com/omniphx/adminite) - Electron app built for Salesforce admins to make SOQL/SOSL queries, bulk records changes and perform access level control tasks.
+- [SFDX Autodeploy Watcher](https://marketplace.visualstudio.com/items?itemName=omniphx.sfdx-auto-deployer) - VS Code plugin I built to autodeploy changes with the sfdx CLI
+  - https://github.com/omniphx/sfdx-autodeploy-watcher
+  - include download statistic from the Visual Studio marketplace
+
+## Collaborations
+
+- [Shelf](https://shelf-app.net/) - App to share reviews of movies, books, TV shows, and games with friends and family. I collaborated on feature for the project including "The Weekly Read". A minigame/collaborative short story reading that allows users to discuss and comment on a story with a Kindle like UX.
 
 ## Contact Information
 
